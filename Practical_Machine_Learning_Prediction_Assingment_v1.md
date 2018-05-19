@@ -188,7 +188,7 @@ fviz_pca_var(pca1, col.var = "contrib",
              )
 ```
 
-![](Practical_Machine_Learning_Prediction_Assingment_v1_files/figure-html/Perform a exploratory correlation analysis-1.png)<!-- -->
+![](Practical_Machine_Learning_Prediction_Assingment_v1_files/figure-html/Perform_a_exploratory_correlation_analysis-1.png)<!-- -->
 
 The plot can be interpreted as follow:
 
@@ -236,7 +236,7 @@ fit_train_tree <- rpart(classe ~ ., data = train_set, method = "class")
 rpart.plot(fit_train_tree)
 ```
 
-![](Practical_Machine_Learning_Prediction_Assingment_v1_files/figure-html/Decision Tree Model-1.png)<!-- -->
+![](Practical_Machine_Learning_Prediction_Assingment_v1_files/figure-html/Decision_Tree_Model-1.png)<!-- -->
 
 
 ***
